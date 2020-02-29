@@ -1,0 +1,891 @@
+{
+  "id": "1612672",
+  "name": "1688DPL中台图标库",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "591719",
+      "name": "wxb报表",
+      "font_class": "wxbbaobiao",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "591720",
+      "name": "wxb标王",
+      "font_class": "wxbbiaowang",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "591722",
+      "name": "wxb工具",
+      "font_class": "wxbgongju",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "591723",
+      "name": "wxb明星店铺",
+      "font_class": "wxbmingxingdianpu",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "591724",
+      "name": "wxb品牌宝",
+      "font_class": "wxbpinpaibao",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "591725",
+      "name": "wxb账户",
+      "font_class": "wxbzhanghu",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "591726",
+      "name": "wxb主页",
+      "font_class": "wxbzhuye",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "591727",
+      "name": "wxb搜索推广",
+      "font_class": "wxbsousuotuiguang",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "591955",
+      "name": "wxb定位",
+      "font_class": "wxbdingwei",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "720530",
+      "name": "聚专场",
+      "font_class": "juzhuanchang",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "749800",
+      "name": "iconfont-youhuiquan",
+      "font_class": "iconfontyouhuiquan",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "749801",
+      "name": "iconfont-xingxing",
+      "font_class": "iconfontxingxing",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "749802",
+      "name": "iconfont-mingpian",
+      "font_class": "iconfontmingpian",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "749803",
+      "name": "iconfont-shouji",
+      "font_class": "iconfontshouji",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "749805",
+      "name": "iconfont-riyongbaihuo",
+      "font_class": "iconfontriyongbaihuo",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "749813",
+      "name": "iconfont-phone",
+      "font_class": "iconfontphone",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "749815",
+      "name": "iconfont-qicheyongpin",
+      "font_class": "iconfontqicheyongpin",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "749816",
+      "name": "iconfont-jingxihuaxue",
+      "font_class": "iconfontjingxihuaxue",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "749817",
+      "name": "iconfont-jiafangjiashi",
+      "font_class": "iconfontjiafangjiashi",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "749818",
+      "name": "iconfont-jixieqimo",
+      "font_class": "iconfontjixieqimo",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "749819",
+      "name": "iconfont-shumajiadian",
+      "font_class": "iconfontshumajiadian",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "749820",
+      "name": "iconfont-meizhuangrihua",
+      "font_class": "iconfontmeizhuangrihua",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "749821",
+      "name": "iconfont-huangguan",
+      "font_class": "iconfonthuangguan",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "749822",
+      "name": "iconfont-shipin",
+      "font_class": "iconfontshipin",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "749823",
+      "name": "iconfont-huagongyuanliao",
+      "font_class": "iconfonthuagongyuanliao",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "749824",
+      "name": "iconfont-tongzhuangmuying",
+      "font_class": "iconfonttongzhuangmuying",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "749826",
+      "name": "iconfont-wujingongju",
+      "font_class": "iconfontwujingongju",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "749828",
+      "name": "iconfont-xiangjiaosuliao",
+      "font_class": "iconfontxiangjiaosuliao",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "749829",
+      "name": "iconfont-xiebaopeishi",
+      "font_class": "iconfontxiebaopeishi",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "749830",
+      "name": "iconfont-yejinkuangchan",
+      "font_class": "iconfontyejinkuangchan",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "749832",
+      "name": "iconfont-yiqiyibiao",
+      "font_class": "iconfontyiqiyibiao",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "749833",
+      "name": "iconfont-yundonghuwai",
+      "font_class": "iconfontyundonghuwai",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "749834",
+      "name": "iconfont-zhaomingdianzi",
+      "font_class": "iconfontzhaomingdianzi",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "749835",
+      "name": "iconfont-gongyichongwu",
+      "font_class": "iconfontgongyichongwu",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "749836",
+      "name": "iconfont-gangcai",
+      "font_class": "iconfontgangcai",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "749837",
+      "name": "iconfont-fuzhuangneiyi",
+      "font_class": "iconfontfuzhuangneiyi",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "749839",
+      "name": "iconfont-fuwushichang",
+      "font_class": "iconfontfuwushichang",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "749840",
+      "name": "iconfont-fangzhipige",
+      "font_class": "iconfontfangzhipige",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "749841",
+      "name": "iconfont-diangongdianqi",
+      "font_class": "iconfontdiangongdianqi",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "749842",
+      "name": "iconfont-baozhuang",
+      "font_class": "iconfontbaozhuang",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "749843",
+      "name": "iconfont-anquanfanghu",
+      "font_class": "iconfontanquanfanghu",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "749845",
+      "name": "个人实名认证",
+      "font_class": "gerenshimingrz",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "749846",
+      "name": "换货保障",
+      "font_class": "huanhuobz",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "749847",
+      "name": "交期保障",
+      "font_class": "jiaoqibz",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "749848",
+      "name": "金牌采购商",
+      "font_class": "jingpaicaigoushang",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "749849",
+      "name": "金牌供应商",
+      "font_class": "jinpaigongyings",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "749850",
+      "name": "极速退款",
+      "font_class": "jisukuikuan",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "749851",
+      "name": "买家保障",
+      "font_class": "maijiabz",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "749852",
+      "name": "破损补寄",
+      "font_class": "posunbuji",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "749854",
+      "name": "企业名称认证",
+      "font_class": "qiyeshenfenrz",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "749855",
+      "name": "如期发货",
+      "font_class": "ruqifahuo",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "749856",
+      "name": "深度认证",
+      "font_class": "shendurz",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "749857",
+      "name": "深度验厂",
+      "font_class": "shenduyanchan",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "749858",
+      "name": "深度验商",
+      "font_class": "shenduyanshang",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "749859",
+      "name": "溯源质检保障",
+      "font_class": "suyuanzhijianbz",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "749860",
+      "name": "提供发票",
+      "font_class": "tigongfapiao",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "749864",
+      "name": "隐藏可见",
+      "font_class": "yingckjian",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "749865",
+      "name": "源产地品质保障",
+      "font_class": "yuanchandipinzhibz",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "749866",
+      "name": "运费险",
+      "font_class": "yunfeixian",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "749868",
+      "name": "正品保障",
+      "font_class": "zhengpinbz",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "749869",
+      "name": "支付宝付款",
+      "font_class": "zhifubaofukuan",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "749870",
+      "name": "质量保障",
+      "font_class": "zhiliangbz",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "749872",
+      "name": "7天包换",
+      "font_class": "7tianbaohuan",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "749873",
+      "name": "7天退货",
+      "font_class": "7tiantuihuo",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "749874",
+      "name": "15天包换",
+      "font_class": "15tianbaohuan",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "749875",
+      "name": "21天包换",
+      "font_class": "21tianbaohuan",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "749876",
+      "name": "24小时发货",
+      "font_class": "24xiaoshifahuo",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "749877",
+      "name": "48小时发货",
+      "font_class": "48xiaoshifahuo",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "749878",
+      "name": "60天包换",
+      "font_class": "60tianbaohuan",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "749879",
+      "name": "72小时发货",
+      "font_class": "72xiaoshifahuo",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "749880",
+      "name": "采购自营",
+      "font_class": "caigouziying",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "749881",
+      "name": "材质保障",
+      "font_class": "caizhibz",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "749882",
+      "name": "材质险",
+      "font_class": "caizhixian",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "749883",
+      "name": "发货保障",
+      "font_class": "fahuobz",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "764174",
+      "name": "溯源",
+      "font_class": "suyuan",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "794931",
+      "name": "阿牛客服2",
+      "font_class": "aniukefu2",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "801728",
+      "name": "品质保障",
+      "font_class": "pinicon",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "801729",
+      "name": "货期保障",
+      "font_class": "huoqibaozhang",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "985993",
+      "name": "缺货必赔",
+      "font_class": "quehuobipei01",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "1093910",
+      "name": "15天包退",
+      "font_class": "15tianbaotui01",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "1094290",
+      "name": "商品中心供货合作保证金",
+      "font_class": "zhi",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "1221112",
+      "name": "all",
+      "font_class": "all",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "1221484",
+      "name": "cart",
+      "font_class": "cart",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "1222006",
+      "name": "set",
+      "font_class": "set",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "1222014",
+      "name": "arrow-down",
+      "font_class": "arrowdown",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "1222026",
+      "name": "arrow-left",
+      "font_class": "arrowleft",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    },
+    {
+      "icon_id": "1222030",
+      "name": "arrow-right",
+      "font_class": "arrowright",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "1222032",
+      "name": "arrow-up",
+      "font_class": "arrowup",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "1222055",
+      "name": "favorite",
+      "font_class": "favorite",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "1223264",
+      "name": "good",
+      "font_class": "good",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "1223697",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "1224250",
+      "name": "refresh",
+      "font_class": "refresh",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "1224717",
+      "name": "map",
+      "font_class": "map",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "1224841",
+      "name": "account",
+      "font_class": "account",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "1224871",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "1224913",
+      "name": "download",
+      "font_class": "download",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "1225018",
+      "name": "compass",
+      "font_class": "compass",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "1225261",
+      "name": "comments",
+      "font_class": "comments",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "1225391",
+      "name": "down",
+      "font_class": "down",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "1225393",
+      "name": "up",
+      "font_class": "up",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "1226382",
+      "name": "play",
+      "font_class": "play",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    },
+    {
+      "icon_id": "1226475",
+      "name": "error",
+      "font_class": "error",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "1226476",
+      "name": "prompt",
+      "font_class": "prompt",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "1226477",
+      "name": "success",
+      "font_class": "success",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "1226715",
+      "name": "stop",
+      "font_class": "stop",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    },
+    {
+      "icon_id": "1226727",
+      "name": "help",
+      "font_class": "help",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    },
+    {
+      "icon_id": "1226737",
+      "name": "time",
+      "font_class": "time",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    },
+    {
+      "icon_id": "1226751",
+      "name": "cry",
+      "font_class": "cry",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "1226780",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "1226781",
+      "name": "minus",
+      "font_class": "minus",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    },
+    {
+      "icon_id": "1226808",
+      "name": "link",
+      "font_class": "link",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    },
+    {
+      "icon_id": "1226824",
+      "name": "atm",
+      "font_class": "atm",
+      "unicode": "e6bd",
+      "unicode_decimal": 59069
+    },
+    {
+      "icon_id": "1226851",
+      "name": "skip",
+      "font_class": "skip",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
+      "icon_id": "1226862",
+      "name": "attachment",
+      "font_class": "attachment",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "1226879",
+      "name": "browse",
+      "font_class": "browse",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    },
+    {
+      "icon_id": "1228433",
+      "name": "phone",
+      "font_class": "phone",
+      "unicode": "e6c2",
+      "unicode_decimal": 59074
+    },
+    {
+      "icon_id": "1228667",
+      "name": "bad",
+      "font_class": "bad",
+      "unicode": "e6c3",
+      "unicode_decimal": 59075
+    },
+    {
+      "icon_id": "1228682",
+      "name": "text",
+      "font_class": "text",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    },
+    {
+      "icon_id": "1238151",
+      "name": "iconfont-shanzi",
+      "font_class": "iconfont-shanzi",
+      "unicode": "e6c7",
+      "unicode_decimal": 59079
+    },
+    {
+      "icon_id": "1267180",
+      "name": "二维码",
+      "font_class": "erweima1688",
+      "unicode": "e6c8",
+      "unicode_decimal": 59080
+    },
+    {
+      "icon_id": "1268730",
+      "name": "人民币",
+      "font_class": "renminbi1688",
+      "unicode": "e6cb",
+      "unicode_decimal": 59083
+    },
+    {
+      "icon_id": "1307682",
+      "name": "7天包退",
+      "font_class": "7tianbaotui",
+      "unicode": "e6cc",
+      "unicode_decimal": 59084
+    },
+    {
+      "icon_id": "1337061",
+      "name": "图片保护",
+      "font_class": "tupianbaohu",
+      "unicode": "e6cd",
+      "unicode_decimal": 59085
+    },
+    {
+      "icon_id": "2323354",
+      "name": "退货保障",
+      "font_class": "tuihuobaozhang",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "2734259",
+      "name": "芝麻信用",
+      "font_class": "zmxy",
+      "unicode": "e6d1",
+      "unicode_decimal": 59089
+    },
+    {
+      "icon_id": "10537632",
+      "name": "7天发货服务",
+      "font_class": "tianfahuofuwu",
+      "unicode": "e6d8",
+      "unicode_decimal": 59096
+    }
+  ]
+}
