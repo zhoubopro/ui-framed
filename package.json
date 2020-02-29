@@ -1,13 +1,12 @@
 {
-  "name": "vue-zb-component",
-  "version": "1.0.0",
+  "name": "ui-framed",
+  "version": "0.0.4",
   "private": false,
-  "description": "组件仓库",
-  "main": "dist/g-component.umd.min.js",
+  "description": "Vue的组件仓库",
+  "main": "dist/ui-framed.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "build:component": "vue-cli-service build --target lib --name g-component src/index.js",
+    "build": "vue-cli-service build --target lib --name ui-framed src/index.js",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
