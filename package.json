@@ -1,6 +1,6 @@
 {
   "name": "ui-framed",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": false,
   "description": "Vue的组件仓库",
   "main": "dist/ui-framed.umd.min.js",
