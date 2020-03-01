@@ -4,6 +4,7 @@
   </svg>
 </template>
 <script>
+  import '../../utils/svg'
   export default {
     name: 'ui-icon',
     props: {
