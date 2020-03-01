@@ -1,17 +1,23 @@
 <template>
-  <button class="g-button" :class="{[`icon-${iconPosition}`]: true}" @click="handleClick">
-    <g-icon v-if="icon && !loading" :name="icon" class="svg-icon" ></g-icon>
-    <g-icon v-if="loading" name="refresh" class="svg-icon loading" ></g-icon>
+  <button
+    class="ui-button"
+    :class="{[`icon-${iconPosition}`]: true}"
+    @click="handleClick"
+  >
+    <ui-icon v-if="icon && !loading" :name="icon" class="svg-icon" />
+    <ui-icon v-if="loading" name="refresh" class="svg-icon loading" />
     <div class="content">
       <slot />
     </div>
   </button>
 </template>
 <script>
-  import Icon from '../icon'
+  import UiIcon from '../icon/icon';
+
   export default {
-    components:{
-      'g-icon': Icon
+    name: 'ui-button',
+    components: {
+      UiIcon
     },
     props: {
       icon: {
@@ -31,7 +37,7 @@
       }
     },
     methods: {
-      handleClick(){
+      handleClick () {
         this.$emit('click')
       }
     }
@@ -39,30 +45,30 @@
 </script>
 <style lang="scss">
   @keyframes spin {
-    0%{
+    0% {
       transform: rotate(0);
     }
-    100%{
+    100% {
       transform: rotate(360deg);
     }
   }
-  .g-button {
-    font-size: var(--font-size);
-    height: var(--button-height);
+  .ui-button {
+    font-size: $font-size;
+    height: $button-height;;
     padding: 0 1em;
     /*font: inherit;*/
-    border-radius: var(--border-radius);
-    border: 1px solid var(--border-color);
-    background: var(--button-bg);
+    border-radius: $border-radius;
+    border: 1px solid $border-color;
+    background: $button-bg;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     vertical-align: middle;
     &:hover {
-      border-color: var(--border-color-hover);
+      border-color: $border-color-hover;
     }
     &:active {
-      background: var(--button-active-bg);
+      background: $button-active-bg;
     }
     &:focus {
       outline: none;
@@ -83,7 +89,7 @@
         margin: .1em 0 0 .2em;
       }
     }
-    .loading{
+    .loading {
       animation: spin 1.5s infinite linear;
     }
   }

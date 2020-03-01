@@ -1,36 +1,37 @@
 <template>
-  <div class="g-button-group">
+  <div class="ui-button-group">
     <slot></slot>
   </div>
 </template>
 <script>
   export default {
+    name: 'ui-button-group',
     mounted () {
       for (let node of this.$el.children) {
-        let nodeName = node.nodeName.toLocaleLowerCase()
+        let nodeName = node.nodeName.toLocaleLowerCase();
         if (nodeName !== 'button') {
-          console.warn(`g-button-group 子元素都应该是button,但是你写的是${nodeName}`)
+          console.warn(`ui-button-group 子元素都应该是button,但是你写的是${nodeName}`)
         }
       }
     }
   }
 </script>
 <style lang="scss">
-  .g-button-group {
+  .ui-button-group {
     display: inline-flex;
     vertical-align: middle;
-    > .g-button {
+    > .ui-button {
       border-radius: 0;
-      &:not(:first-child){
+      &:not(:first-child) {
         margin-left: -1px;
       }
       &:first-child {
-        border-top-left-radius: var(--border-radius);
-        border-bottom-left-radius: var(--border-radius);
+        border-top-left-radius: $border-radius;
+        border-bottom-left-radius: $border-radius;
       }
       &:last-child {
-        border-top-right-radius: var(--border-radius);
-        border-bottom-right-radius: var(--border-radius);
+        border-top-right-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
       }
       &:hover {
         position: relative;

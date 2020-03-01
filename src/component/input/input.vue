@@ -15,10 +15,10 @@
 </template>
 
 <script>
-  import Icon from '../icon'
+  import Icon from '../icon/icon'
 
   export default {
-    name: "g-input",
+    name: "ui-input",
     props: {
       value: {
         type: [String, Number],

@@ -1,36 +1,36 @@
 <template>
-  <div class="g-pager" :class="{hide: hideIfOnePage === true && totalPage <= 1}">
+  <div class="ui-pager" :class="{hide: hideIfOnePage === true && totalPage <= 1}">
     <span
-      class="g-pager-nav prev"
+      class="ui-pager-nav prev"
       :class="{disabled:currentPage===1}"
       @click="onClickPage(currentPage-1)"
     >
-      <g-icon name="arrowleft"></g-icon>
+      <ui-icon name="arrowleft"></ui-icon>
     </span>
     <template v-for="page in pages">
       <template v-if="page === currentPage">
-        <span class="g-pager-item current">{{page}}</span>
+        <span class="ui-pager-item current">{{page}}</span>
       </template>
       <template v-else-if="page === '...'">
         <span>...</span>
-        <!--<g-icon class="g-pager-separator" name="dots"></g-icon>-->
+        <!--<ui-icon class="ui-pager-separator" name="dots"></ui-icon>-->
       </template>
       <template v-else>
-        <span class="g-pager-item other" @click="onClickPage(page)">{{page}}</span>
+        <span class="ui-pager-item other" @click="onClickPage(page)">{{page}}</span>
       </template>
     </template>
-    <span class="g-pager-nav next" :class="{disabled: currentPage===totalPage}"
+    <span class="ui-pager-nav next" :class="{disabled: currentPage===totalPage}"
           @click="onClickPage(currentPage+1)">
-      <g-icon name="arrowright"></g-icon>
+      <ui-icon name="arrowright"></ui-icon>
     </span>
   </div>
 </template>
 
 <script>
-  import GIcon from '../icon/icon'
+  import UiIcon from '../icon/icon'
 
   export default {
-    name: "g-pager",
+    name: "ui-pager",
     props: {
       totalPage: {
         type: Number,
@@ -46,7 +46,7 @@
       }
     },
     components: {
-      GIcon
+      UiIcon
     },
     computed: {
       pages () { // 依赖了 totalPage 和 currentPage
@@ -83,7 +83,7 @@
 </script>
 
 <style scoped lang="scss">
-  .g-pager {
+  .ui-pager {
     display: flex;
     justify-content: flex-start;
     align-items: center;

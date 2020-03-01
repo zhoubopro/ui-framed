@@ -1,9 +1,9 @@
 <template>
-  <div class="g-sub-nav" :class="{active, vertical}" v-click-outside="close">
-    <span @click="onClick" class="g-sub-nav-label">
+  <div class="ui-sub-nav" :class="{active, vertical}" v-click-outside="close">
+    <span @click="onClick" class="ui-sub-nav-label">
       <slot name="title"></slot>
-      <span class="g-sub-nav-icon" :class="{open, vertical}">
-        <g-icon name="arrowright"></g-icon>
+      <span class="ui-sub-nav-icon" :class="{open, vertical}">
+        <ui-icon name="arrowright"></ui-icon>
       </span>
     </span>
 
@@ -14,14 +14,14 @@
         @after-leave="afterLeave"
         @after-enter="afterEnter"
       >
-        <div class="g-sub-nav-popover" v-show="open" :class="{vertical}">
+        <div class="ui-sub-nav-popover" v-show="open" :class="{vertical}">
           <slot></slot>
         </div>
       </transition>
     </template>
 
     <template v-else>
-      <div class="g-sub-nav-popover" v-show="open">
+      <div class="ui-sub-nav-popover" v-show="open">
         <slot></slot>
       </div>
     </template>
@@ -30,14 +30,14 @@
 
 <script>
   import ClickOutside from '../../utils/click-outside';
-  import GIcon from '../icon/icon';
+  import UiIcon from '../icon/icon';
 
   export default {
-    name: "g-sub-nav",
+    name: "ui-sub-nav",
     directives: { ClickOutside },
     inject: ['root', 'vertical'],
     components: {
-      GIcon
+      UiIcon
     },
     props: {
       name: {
@@ -102,7 +102,7 @@
 <style scoped lang="scss">
   $border-radius: 4px;
   $blue: #4a90e2;
-  .g-sub-nav {
+  .ui-sub-nav {
     position: relative;
     &:not(.vertical) {
       &.active {
@@ -145,7 +145,7 @@
       }
     }
   }
-  .g-sub-nav .g-sub-nav {
+  .ui-sub-nav .ui-sub-nav {
     &.active {
       &::after {
         display: none;
@@ -155,18 +155,18 @@
       padding: 10px 10px 10px 20px;
       display: block;
     }
-    .g-sub-nav-popover {
+    .ui-sub-nav-popover {
       top: 0;
       left: 100%;
       margin-left: 8px;
     }
-    .g-sub-nav-label {
+    .ui-sub-nav-label {
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex: 1;
     }
-    .g-sub-nav-icon {
+    .ui-sub-nav-icon {
       display: inline-flex;
       margin-left: 1em;
       transition: transform .3s;

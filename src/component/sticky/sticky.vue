@@ -1,6 +1,6 @@
 <template>
-  <div class="g-sticky-wrapper" ref="wrapper" :style="{height}">
-    <div class="g-sticky" :class="classes" :style="{width, left, top}">
+  <div class="ui-sticky-wrapper" ref="wrapper" :style="{height}">
+    <div class="ui-sticky" :class="classes" :style="{width, left, top}">
       <slot></slot>
     </div>
   </div>
@@ -8,7 +8,7 @@
 
 <script>
   export default {
-    name: "g-sticky",
+    name: "ui-sticky",
     props: {
       distance: {
         type: Number,
@@ -63,8 +63,8 @@
 </script>
 
 <style scoped lang="scss">
-  .g-sticky-wrapper {
-    .g-sticky {
+  .ui-sticky-wrapper {
+    .ui-sticky {
       &.sticky {
         position: fixed;
         /*top: 0;*/

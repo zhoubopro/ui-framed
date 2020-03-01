@@ -1,14 +1,14 @@
 <template>
-  <div class="g-table-wrapper" ref="wrapper">
+  <div class="ui-table-wrapper" ref="wrapper">
     <div :style="{height: height + 'px', overflow: 'auto'}" ref="tableWrapper">
       <table
-        class="g-table" :class="{bordered, compact, striped}"
+        class="ui-table" :class="{bordered, compact, striped}"
         ref="table"
       >
         <thead>
         <tr>
-          <th v-if="expendField" :style="{width: '50px'}" class="g-table-center"></th>
-          <th v-if="checkable" :style="{width: '50px'}" class="g-table-center">
+          <th v-if="expendField" :style="{width: '50px'}" class="ui-table-center"></th>
+          <th v-if="checkable" :style="{width: '50px'}" class="ui-table-center">
             <input
               type="checkbox"
               @change="onChangeAllItems"
@@ -18,21 +18,21 @@
           </th>
           <th :style="{width: '50px'}" v-if="numberVisible">#</th>
           <th v-for="column in columns" :key="column.field" :style="{width: column.width +'px'}">
-            <div class="g-table-header">
+            <div class="ui-table-header">
               {{column.text}}
               <span
                 v-if="column.field in orderBy"
-                class="g-table-sorter"
+                class="ui-table-sorter"
                 @click="changeOrderBy(column.field)"
               >
-            <g-icon
+            <ui-icon
               name="up-arrow"
               :class="{active: orderBy[column.field] === 'asc'}">
-            </g-icon>
-            <g-icon
+            </ui-icon>
+            <ui-icon
               name="down-arrow"
               :class="{active: orderBy[column.field] === 'desc'}">
-            </g-icon>
+            </ui-icon>
           </span>
             </div>
           </th>
@@ -42,11 +42,11 @@
         <tbody>
         <template v-for="(item,index) in dataSource">
           <tr :key="item.id">
-            <td v-if="expendField" :style="{width: '50px'}" class="g-table-center">
-              <g-icon :class="[expendClass(item.id)]" name="arrowright" class="g-table-expendIcon"
+            <td v-if="expendField" :style="{width: '50px'}" class="ui-table-center">
+              <ui-icon :class="[expendClass(item.id)]" name="arrowright" class="ui-table-expendIcon"
                       @click="expendItem(item.id)" />
             </td>
-            <td v-if="checkable" :style="{width: '50px'}" class="g-table-center">
+            <td v-if="checkable" :style="{width: '50px'}" class="ui-table-center">
               <input
                 type="checkbox"
                 @change="onchangeItem(item, index, $event)"
@@ -75,19 +75,19 @@
       </table>
     </div>
 
-    <div v-if="loading" class="g-table-loading">
-      <g-icon name="set"></g-icon>
+    <div v-if="loading" class="ui-table-loading">
+      <ui-icon name="set"></ui-icon>
     </div>
   </div>
 </template>
 
 <script>
-  import GIcon from '../icon/icon';
+  import UiIcon from '../icon/icon';
 
   export default {
-    name: "g-table",
+    name: "ui-table",
     components: {
-      GIcon,
+      UiIcon,
     },
     props: {
       height: {
@@ -184,7 +184,7 @@
     mounted () {
       let table2 = this.$refs.table.cloneNode(false);
       this.table2 = table2
-      table2.classList.add('g-table-copy');
+      table2.classList.add('ui-table-copy');
       let thead = this.$refs.table.children[0];
       let { height } = thead.getBoundingClientRect();
       this.$refs.tableWrapper.style.marginTop = height + 'px';
@@ -273,10 +273,10 @@
 
 <style scoped lang="scss">
   $tgrey: darken($grey, 10%);
-  .g-table-wrapper {
+  .ui-table-wrapper {
     position: relative;
     overflow: auto;
-    .g-table {
+    .ui-table {
       width: 100%;
       border-collapse: collapse;
       border-spacing: 0;

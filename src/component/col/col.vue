@@ -1,5 +1,9 @@
 <template>
-  <div class="col" :class="colClass" :style="colStyle">
+  <div
+    class="ui-col"
+    :class="colClass"
+    :style="colStyle"
+  >
     <slot></slot>
   </div>
 </template>
@@ -17,7 +21,7 @@
   };
 
   export default {
-    name: "g-col",
+    name: "ui-col",
     props: {
       span: {
         type: [Number, String]
@@ -61,11 +65,11 @@
         return [
           span && `col-${span}`,
           offset && `offset-${offset}`,
-          ... (phone ? [`col-phone-${phone.span}`] : []),
-          ... (ipad ? [`col-ipad-${ipad.span}`] : []),
-          ... (narrowPc ? [`col-narrow-pc-${narrowPc.span}`] : []),
-          ... (pc ? [`col-pc-${pc.span}`] : []),
-          ... (widePc ? [`col-wide-pc-${widePc.span}`] : []),
+          ... (phone ? [`ui-col-phone-${phone.span}`] : []),
+          ... (ipad ? [`ui-col-ipad-${ipad.span}`] : []),
+          ... (narrowPc ? [`ui-col-narrow-pc-${narrowPc.span}`] : []),
+          ... (pc ? [`ui-col-pc-${pc.span}`] : []),
+          ... (widePc ? [`ui-col-wide-pc-${widePc.span}`] : []),
         ]
       },
       colStyle () {
@@ -85,9 +89,9 @@
 </script>
 
 <style scoped lang="scss">
-  .col {
+  .ui-col {
     /*width: 50%;*/
-    $span-prefix: col-;
+    $span-prefix: ui-col-;
     @for $n from 1 through 24 {
       &.#{$span-prefix}#{$n} {
         width: ($n/24) * 100%;
@@ -100,7 +104,7 @@
       }
     }
     @media (max-width: 576px) {
-      $span-prefix: col-phone-;
+      $span-prefix: ui-col-phone-;
       @for $n from 1 through 24 {
         &.#{$span-prefix}#{$n} {
           width: ($n/24) * 100%;
@@ -114,7 +118,7 @@
       }
     }
     @media (min-width: 577px) and (max-width: 768px) {
-      $span-prefix: col-ipad-;
+      $span-prefix: ui-col-ipad-;
       @for $n from 1 through 24 {
         &.#{$span-prefix}#{$n} {
           width: ($n/24) * 100%;
@@ -128,7 +132,7 @@
       }
     }
     @media (min-width: 769px) and (max-width: 992px) {
-      $span-prefix: col-narrow-pc-;
+      $span-prefix: ui-col-narrow-pc-;
       @for $n from 1 through 24 {
         &.#{$span-prefix}#{$n} {
           width: ($n/24) * 100%;
@@ -142,7 +146,7 @@
       }
     }
     @media (min-width: 993px) and (max-width: 1200px) {
-      $span-prefix: col-pc-;
+      $span-prefix: ui-col-pc-;
       @for $n from 1 through 24 {
         &.#{$span-prefix}#{$n} {
           width: ($n/24) * 100%;
@@ -156,7 +160,7 @@
       }
     }
     @media (min-width: 1201px) {
-      $span-prefix: col-wide-pc-;
+      $span-prefix: ui-col-wide-pc-;
       @for $n from 1 through 24 {
         &.#{$span-prefix}#{$n} {
           width: ($n/24) * 100%;

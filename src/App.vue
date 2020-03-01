@@ -1,16 +1,23 @@
 <template>
   <div id="app" style="display: flex;justify-content: center;">
-    <g-button>hello</g-button>
+    <UiButtonGroup>
+      <ui-button icon="set">hello</ui-button>
+      <ui-button >aaa</ui-button>
+    </UiButtonGroup>
+    <UiIcon name="set"></UiIcon>
   </div>
 </template>
 
 <script>
-  import GButton from './component/button/button'
-
+  import UiButton from './component/button/button'
+  import UiButtonGroup from './component/button-group/button-group'
+  import UiIcon from './component/icon/icon'
   export default {
     name: 'app',
     components: {
-      GButton,
+      UiButtonGroup,
+      UiButton,
+      UiIcon,
     },
     data () {
       return {
@@ -33,7 +40,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  img {
+  /*img {
     max-width: 100%;
   }
   html {
@@ -54,5 +61,5 @@
   }
   img {
     max-width: 100%;
-  }
+  }*/
 </style>

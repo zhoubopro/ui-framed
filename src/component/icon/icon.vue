@@ -1,10 +1,11 @@
 <template>
-  <svg class="g-icon" @click="$emit('click', $event)">
+  <svg class="ui-icon" @click="$emit('click', $event)">
     <use :xlink:href="`#icon-${name}`"></use>
   </svg>
 </template>
 <script>
   export default {
+    name: 'ui-icon',
     props: {
       name: {
         type: String,
@@ -14,7 +15,7 @@
   }
 </script>
 <style lang="scss">
-  .g-icon {
+  .ui-icon {
     width: 1em;
     height: 1em;
   }

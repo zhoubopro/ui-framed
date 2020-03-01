@@ -1,18 +1,18 @@
 <template>
   <div
-    class="g-slide"
+    class="ui-slide"
     @mouseenter="onMouseEnter"
     @mouseleave="onMouseLeave"
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
   >
-    <div class="g-slide-container">
+    <div class="ui-slide-container">
       <slot></slot>
     </div>
 
-    <div class="g-slide-dots">
+    <div class="ui-slide-dots">
       <span @click="prevSlide()" data-action="prev">
-        <g-icon name="arrowleft"></g-icon>
+        <ui-icon name="arrowleft"></ui-icon>
       </span>
       <span
         v-for="n in childrenLength"
@@ -24,17 +24,17 @@
         {{n}}
       </span>
       <span @click="nextSlide()" data-action="next">
-        <g-icon name="arrowright"></g-icon>
+        <ui-icon name="arrowright"></ui-icon>
       </span>
     </div>
   </div>
 </template>
 
 <script>
-  import GIcon from '../icon'
+  import UiIcon from '../icon/icon'
 
   export default {
-    name: "g-slide",
+    name: "ui-slide",
     props: {
       selected: String,
       autoPlay: {
@@ -55,7 +55,7 @@
       }
     },
     components: {
-      GIcon
+      UiIcon
     },
     computed: {
       names () {
@@ -66,12 +66,12 @@
         return index === -1 ? 0 : index
       },
       items () {
-        return this.$children.filter(vm => vm.$options.name === 'g-slide-item')
+        return this.$children.filter(vm => vm.$options.name === 'ui-slide-item')
       }
     },
     mounted () {
       this.updateChildren();
-      if(this.autoPlay){
+      if (this.autoPlay) {
         this.automatically();
       }
       this.childrenLength = this.items.length
@@ -174,7 +174,7 @@
 </script>
 
 <style scoped lang="scss">
-  .g-slide {
+  .ui-slide {
     &-container {
       position: relative;
       overflow: hidden;

@@ -1,12 +1,12 @@
 <template>
-  <div class="row" :style="rowStyle" :class="rowClass">
+  <div class="ui-row" :style="rowStyle" :class="rowClass">
     <slot></slot>
   </div>
 </template>
 
 <script>
   export default {
-    name: "g-row",
+    name: "ui-row",
     props: {
       gutter: {
         type: [Number, String]
@@ -47,7 +47,7 @@
 </script>
 
 <style scoped lang="scss">
-  .row {
+  .ui-row {
     display: flex;
     &.align-left{
       justify-content: flex-start;

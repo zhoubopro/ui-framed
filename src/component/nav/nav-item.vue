@@ -1,6 +1,6 @@
 <template>
   <div
-    class="g-nav-item"
+    class="ui-nav-item"
     :class="{selected, vertical}"
     @click="onClick"
     :data-name="name"
@@ -11,7 +11,7 @@
 
 <script>
   export default {
-    name: "g-nav-item",
+    name: "ui-nav-item",
     inject: ['root', 'vertical'],
     props: {
       name: {
@@ -38,9 +38,8 @@
 </script>
 
 <style scoped lang="scss">
-  /*@import "../../styles";*/
   $blue: #4a90e2;
-  .g-nav-item {
+  .ui-nav-item {
     padding: 10px 20px;
     position: relative;
     &:not(.vertical) {

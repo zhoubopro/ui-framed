@@ -1,12 +1,12 @@
 <template>
-  <div class="g-nav" :class="{vertical}">
+  <div class="ui-nav" :class="{vertical}">
     <slot></slot>
   </div>
 </template>
 
 <script>
   export default {
-    name: "g-nav",
+    name: "ui-nav",
     provide () {
       return {
         root: this,
@@ -69,7 +69,7 @@
 </script>
 
 <style scoped lang="scss">
-  .g-nav {
+  .ui-nav {
     display: flex;
     border-bottom: 1px solid #eee;
     color: #333;
