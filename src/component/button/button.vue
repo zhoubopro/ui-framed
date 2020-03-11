@@ -44,6 +44,7 @@
   }
 </script>
 <style lang="scss">
+  @import '../../styles/_var.scss';
   @keyframes spin {
     0% {
       transform: rotate(0);

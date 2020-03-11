@@ -1,0 +1,46 @@
+<template>
+  <div :class="wrapClasses">
+    <slot></slot>
+  </div>
+</template>
+
+<script>
+  const prefixCls = 'ui-layout';
+  export default {
+    name: "ui-layout",
+    data () {
+      return {
+        hasSider: false
+      };
+    },
+    computed: {
+      wrapClasses () {
+        return [
+          `${prefixCls}`,
+          {
+            [`${prefixCls}-has-sider`]: this.hasSider
+          }
+        ];
+      }
+    },
+    mounted(){
+      this.hasSider = this.findSider();
+    },
+    methods:{
+      findSider () {
+        return this.$children.some(child => {
+          return child.$options.name === 'ui-sider';
+        });
+      }
+    }
+  }
+</script>
+
+<style scoped lang="scss">
+  .ui-layout{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    background: $layout-body-background;
+  }
+</style>

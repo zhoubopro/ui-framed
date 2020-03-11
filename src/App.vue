@@ -5,6 +5,10 @@
       <ui-button >aaa</ui-button>
     </UiButtonGroup>
     <UiIcon name="set"></UiIcon>
+
+    <ui-layout>
+      aaa
+    </ui-layout>
   </div>
 </template>
 
@@ -12,12 +16,14 @@
   import UiButton from './component/button/button'
   import UiButtonGroup from './component/button-group/button-group'
   import UiIcon from './component/icon/icon'
+  import UiLayout from './component/layout';
   export default {
     name: 'app',
     components: {
       UiButtonGroup,
       UiButton,
       UiIcon,
+      UiLayout
     },
     data () {
       return {

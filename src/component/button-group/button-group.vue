@@ -17,6 +17,7 @@
   }
 </script>
 <style lang="scss">
+  @import '../../styles/_var.scss';
   .ui-button-group {
     display: inline-flex;
     vertical-align: middle;
