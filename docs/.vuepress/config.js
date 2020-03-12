@@ -24,4 +24,7 @@ module.exports = {
   // scss:{
   //   includePaths: [path.join(__dirname, 'src/styles')]
   // },
+  // markdown: {
+  //   lineNumbers: true
+  // }
 }
