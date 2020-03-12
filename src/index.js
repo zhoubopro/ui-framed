@@ -1,15 +1,43 @@
-export {default as UiButton} from './component/button';
-export {default as UiLayout} from './component/layout';
-export {default as UiButtonGroup} from './component/button-group/button-group';
-export {default as UiCol} from './component/col/col';
-export {default as UiIcon} from './component/icon/icon';
-export {default as UiInput} from './component/input/input';
-export {default as UiNav} from './component/nav/nav';
-export {default as UiNavItem} from './component/nav/nav-item';
-export {default as UiSubNav} from './component/nav/sub-nav';
-export {default as UiPager} from './component/pager/pager';
-export {default as UiRow} from './component/row/row';
-export {default as UiSlide} from './component/slide/slide';
-export {default as UiSlideItem} from './component/slide/slide-item';
-export {default as Sticky} from './component/sticky/sticky';
-export {default as Table} from './component/table/table';
+import UiButton from './component/button';
+import UiButtonGroup from './component/button-group/button-group';
+import UiLayout from './component/layout';
+import UiHeader from './component/header';
+import UiSider from './component/sider';
+import UiContent from './component/content';
+import UiFooter from './component/footer';
+import UiCol from './component/col/col';
+import UiIcon from './component/icon/icon';
+import UiInput from './component/input/input';
+import UiNav from './component/nav/nav';
+import UiNavItem from './component/nav/nav-item';
+import UiSubNav from './component/nav/sub-nav';
+import UiPager from './component/pager/pager';
+import UiRow from './component/row/row';
+import UiSlide from './component/slide/slide';
+import UiSlideItem from './component/slide/slide-item';
+import Sticky from './component/sticky/sticky';
+import Table from './component/table/table';
+
+const components = {
+  UiButton,
+  UiButtonGroup,
+  UiLayout,
+  UiHeader,
+  UiSider,
+  UiContent,
+  UiFooter,
+  UiCol,
+  UiIcon,
+  UiInput,
+  UiNav,
+  UiNavItem,
+  UiSubNav,
+  UiPager,
+  UiRow,
+  UiSlide,
+  UiSlideItem,
+  Sticky,
+  Table,
+};
+
+export default components;
