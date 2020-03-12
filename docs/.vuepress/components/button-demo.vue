@@ -29,13 +29,13 @@
     <div class="component-wrapper">
       <div class="component-wrapper-demo">
         <ui-button-group>
-          <ui-button icon="left">
+          <ui-button icon="arrowleft">
             上一页
           </ui-button>
           <ui-button>
             更多
           </ui-button>
-          <ui-button icon="right">
+          <ui-button icon="arrowright" iconPosition="right">
             下一页
           </ui-button>
         </ui-button-group>
@@ -70,9 +70,9 @@
       return {
         codeStr: `
           <ui-button>默认按钮</ui-button>
-          <ui-button icon="settings">默认按钮</ui-button>
-          <ui-button :loading="true">默认按钮</ui-button>
-          <ui-button disabled>默认按钮</ui-button>
+          <ui-button icon="set">带 icon 按钮</ui-button>
+          <ui-button :loading="true">加载按钮</ui-button>
+          <ui-button disabled>禁用按钮</ui-button>
         `.replace(/^ {8}/gm, '').trim(),
         codeStr2: `
           <ui-button-group>
