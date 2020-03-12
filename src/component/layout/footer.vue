@@ -1,19 +1,19 @@
 <template>
-  <div class="ui-sider">
+  <div class="ui-footer">
     <slot></slot>
   </div>
 </template>
 
 <script>
   export default {
-    name: "ui-sider"
+    name: "ui-footer"
   }
 </script>
 
 <style scoped lang="scss">
-  .ui-sider {
-    background: #3a9fe8;
+  .ui-footer {
+    min-height: 60px;
+    background: #7cbce9;
     color: #ffffff;
-    min-width: 200px;
   }
 </style>

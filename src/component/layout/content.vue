@@ -1,19 +1,19 @@
 <template>
-  <div class="ui-sider">
+  <div class="ui-content">
     <slot></slot>
   </div>
 </template>
 
 <script>
   export default {
-    name: "ui-sider"
+    name: "ui-content"
   }
 </script>
 
 <style scoped lang="scss">
-  .ui-sider {
-    background: #3a9fe8;
+  .ui-content {
+    flex-grow: 1;
+    background: #0f8de9;
     color: #ffffff;
-    min-width: 200px;
   }
 </style>

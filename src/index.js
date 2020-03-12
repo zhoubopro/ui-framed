@@ -1,4 +1,5 @@
-export {default as UiButton} from './component/button/button';
+export {default as UiButton} from './component/button';
+export {default as UiLayout} from './component/layout';
 export {default as UiButtonGroup} from './component/button-group/button-group';
 export {default as UiCol} from './component/col/col';
 export {default as UiIcon} from './component/icon/icon';

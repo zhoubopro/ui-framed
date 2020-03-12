@@ -1,29 +1,38 @@
 <template>
   <div id="app" style="display: flex;justify-content: center;">
-    <UiButtonGroup>
-      <ui-button icon="set">hello</ui-button>
-      <ui-button >aaa</ui-button>
-    </UiButtonGroup>
-    <UiIcon name="set"></UiIcon>
-
-    <ui-layout>
-      aaa
+    <ui-layout style="height:100vh">
+      <ui-sider>
+        sider
+      </ui-sider>
+      <ui-layout>
+        <ui-header>
+          header
+        </ui-header>
+        <ui-content>
+          content
+        </ui-content>
+        <ui-footer>
+          footer
+        </ui-footer>
+      </ui-layout>
     </ui-layout>
   </div>
 </template>
 
 <script>
-  import UiButton from './component/button/button'
-  import UiButtonGroup from './component/button-group/button-group'
-  import UiIcon from './component/icon/icon'
   import UiLayout from './component/layout';
+  const UiHeader = UiLayout.UiHeader;
+  const UiContent = UiLayout.UiContent;
+  const UiSider = UiLayout.UiSider;
+  const UiFooter = UiLayout.UiFooter;
   export default {
     name: 'app',
     components: {
-      UiButtonGroup,
-      UiButton,
-      UiIcon,
-      UiLayout
+      UiLayout,
+      UiHeader,
+      UiContent,
+      UiSider,
+      UiFooter
     },
     data () {
       return {

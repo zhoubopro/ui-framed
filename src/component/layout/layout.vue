@@ -29,6 +29,7 @@
     methods:{
       findSider () {
         return this.$children.some(child => {
+          // console.log(child.$options.name);
           return child.$options.name === 'ui-sider';
         });
       }
@@ -42,5 +43,8 @@
     flex-direction: column;
     flex: auto;
     background: $layout-body-background;
+    &-has-sider{
+      flex-direction: row;
+    }
   }
 </style>

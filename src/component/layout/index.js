@@ -1,5 +1,12 @@
-import Layout from './layout.vue';
+import UiLayout from './layout.vue';
+import UiHeader from './header.vue';
+import UiSider from './sider.vue';
+import UiContent from './content.vue';
+import UiFooter from './footer.vue';
 
+UiLayout.UiHeader = UiHeader;
+UiLayout.UiSider = UiSider;
+UiLayout.UiContent = UiContent;
+UiLayout.UiFooter = UiFooter;
 
-
-export default Layout;
+export default UiLayout;
