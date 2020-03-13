@@ -10,6 +10,7 @@
         </ui-header>
         <ui-content>
           content
+          <ui-pager :totalPage="10" :currentPage="3"></ui-pager>
         </ui-content>
         <ui-footer>
           footer
@@ -21,10 +22,15 @@
 
 <script>
   import UiLayout from './component/layout';
-  const UiHeader = UiLayout.UiHeader;
-  const UiContent = UiLayout.UiContent;
-  const UiSider = UiLayout.UiSider;
-  const UiFooter = UiLayout.UiFooter;
+  import UiHeader from './component/header';
+  import UiContent from './component/content';
+  import UiSider from './component/sider';
+  import UiFooter from './component/footer';
+  import UiPager from './component/pager/pager';
+  // const UiHeader = UiLayout.UiHeader;
+  // const UiContent = UiLayout.UiContent;
+  // const UiSider = UiLayout.UiSider;
+  // const UiFooter = UiLayout.UiFooter;
   export default {
     name: 'app',
     components: {
@@ -32,7 +38,8 @@
       UiHeader,
       UiContent,
       UiSider,
-      UiFooter
+      UiFooter,
+      UiPager
     },
     data () {
       return {
