@@ -38,6 +38,8 @@
 </script>
 
 <style scoped lang="scss">
+  @import '../../styles/_var.scss';
+
   .ui-layout{
     display: flex;
     flex-direction: column;
