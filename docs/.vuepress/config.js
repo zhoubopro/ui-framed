@@ -1,6 +1,6 @@
 module.exports = {
   base: '/ui-framed/',
-  title: 'ui-framed一个Vue的UI框架',
+  title: 'UiFramed 框架',
   description: 'Just playing around',
   themeConfig: {
     sidebar: [

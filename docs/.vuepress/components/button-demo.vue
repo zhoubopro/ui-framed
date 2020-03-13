@@ -17,8 +17,7 @@
         </div>
       </div>
       <div class="lock-code" @click="showCode(0)" ref="xxx">
-        <ui-icon class="icon-down" :name="isShow[0] === false ? 'down' : 'up'"></ui-icon>
-        <span class="lock-code-word">{{isShow[0] === false ? '显示代码' : '隐藏代码'}}</span>
+        <ui-icon class="icon-down" :name="isShow[0] === false ? 'arrowdown' : 'arrowup'"></ui-icon>
       </div>
     </div>
 
@@ -46,8 +45,7 @@
         </div>
       </div>
       <div class="lock-code" @click="showCode(1)" ref="xxx">
-        <ui-icon class="icon-down" :name="isShow[1] === false ? 'down' : 'up'"></ui-icon>
-        <span class="lock-code-word">{{isShow[1] === false ? '显示代码' : '隐藏代码'}}</span>
+        <ui-icon class="icon-down" :name="isShow[1] === false ? 'arrowdown' : 'arrowup'"></ui-icon>
       </div>
     </div>
   </div>

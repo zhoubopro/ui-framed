@@ -23,7 +23,6 @@ export default {
     //得到所有代码区域的高度
     getCodesHeight () {
       const arr = document.getElementsByClassName('code-content-height')
-      console.log(arr);
       this.codeParent = document.getElementsByClassName('code-content')
       const arrLength = arr.length
       for (let i = 0; i < arrLength; i++) {

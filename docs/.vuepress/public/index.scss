@@ -22,16 +22,16 @@
   }
 
   &:hover {
-    .lock-code .lock-code-word {
-      font-size: 14px;
-      transform: translateX(-40px);
-      opacity: 1;
-    }
-
-    .lock-code .icon-down {
-      transform: translateX(-40px);
-    }
-
+  //  .lock-code .lock-code-word {
+  //    font-size: 14px;
+  //    transform: translateX(-40px);
+  //    opacity: 1;
+  //  }
+  //
+  //  .lock-code .icon-down {
+  //    transform: translateX(-40px);
+  //  }
+  //
     box-shadow: 0 0 8px 0 rgba(232, 237, 250, .6),
     0 2px 4px 0 rgba(232, 237, 250, .5);
   }
